@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedyMail</title>
+    <link href="/assets/logo.png" rel="icon">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+        <a href="https://github.com/yorsh130204" class="logo" target="_blank"><img src="assets/logo.png" alt="" class="img-fluid"></a>
+        <nav id="navbar" class="navbar">
+            <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#send">Send Email</a></li>
+            <li><a class="nav-link scrollto" href="https://github.com/yorsh130204" target="_blank">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+        </div>
+    </header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <h1>Send Emails with SpeedyMail</h1>
+                <h2>Effortlessly Send Emails to Your Contacts. Stay Organized and Connected. With SpeedyMail, sending emails is a breeze. Manage your email communications effectively and 
+                    stay connected with your contacts. Our intuitive platform helps you streamline your email workflow, ensuring your messages are delivered seamlessly.</h2>
+                <div><a href="#send" class="btn-get-started scrollto">Get Started</a></div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img">
+            <img src="assets/logo-hero.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        </div>
+    </section><!-- End Hero -->  
+    <form id="form">
+        <div class="container register" id="send">
+            <div class="row">
+                <div class="col-md-3 register-left">
+                    <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                    <h2>Welcome</h2>
+                    <p>Fill out the form below to send an email.</p>
+                    <input class="btnSend" id="button" type="submit" value="Send Email"/><br/>
+                </div>
+                <div class="col-md-9 register-right">
+                    <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                        <li class="nav-item">
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h1 class="register-heading">Contact Form</h3>
+                            <div class="row register-form">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="to_name" id="from_name" class="form-control" placeholder="To Name *" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="from_name" id="to_name" class="form-control" placeholder="Your Name *" value="" />
+                                    </div>
+                                    <!-- Otros campos del formulario aquí -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="email_id" id="reply_to" class="form-control" placeholder="Recipient's Email *" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea type="text" name="message" id="message" class="form-control" placeholder="Message Body *"></textarea>
+                                    </div>
+                                    <!-- Campos del formulario continuación -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container py-4">
+        <div class="copyright">
+            &copy; Copyright <strong><span>SpeedyMail</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/butterfly-free-bootstrap-theme/ -->
+            Designed by <a href="https://github.com/yorsh130204" target="_blank">Jorge Valenzuela Castañón</a>
+        </div>
+        </div>
+    </footer><!-- End Footer -->
+    <script src="/js/main.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Tu archivo de script adicional aquí -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    emailjs.init('aiXenI_nblLykGn63')
+</script>
+</body>
+</html>
