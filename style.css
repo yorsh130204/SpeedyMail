@@ -8,11 +8,11 @@ body {
   
 a {
     text-decoration: none;
-    color: #49b5e7;
+    color: #49e54c;
 }
   
 a:hover {
-    color: #76c7ed;
+    color: #76ed7e;
     text-decoration: none;
 }
   
@@ -29,7 +29,7 @@ p {
 }  
 
 .register{
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background: -webkit-linear-gradient(left, #28941a, #2fff82);
     margin-top: 3%;
     padding: 3%;
 }
@@ -85,7 +85,7 @@ p {
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
-    background: #0062cc;
+    background: #00cc3a;
     color: #fff;
     font-weight: 600;
     width: 50%;
@@ -94,7 +94,7 @@ p {
 .register .nav-tabs{
     margin-top: 3%;
     border: none;
-    background: #0062cc;
+    background: #1bcc00;
     border-radius: 1.5rem;
     width: 28%;
     float: right;
@@ -112,8 +112,8 @@ p {
 }
 .register .nav-tabs .nav-link.active{
     width: 100px;
-    color: #0062cc;
-    border: 2px solid #0062cc;
+    color: #00cc2c;
+    border: 2px solid #00cc41;
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
@@ -147,7 +147,7 @@ p {
   }
   
   #header .logo a {
-    color: #0f394c;
+    color: #0f4c1e;
   }
   
   #header .logo img {
@@ -185,7 +185,7 @@ p {
     font-family: "Dosis", sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: #0f394c;
+    color: #0f4c1e;
     white-space: nowrap;
     transition: 0.3s;
     text-transform: uppercase;
@@ -202,7 +202,7 @@ p {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #49b5e7;
+    color: #49e54c;
   }
   
   .navbar .dropdown ul {
@@ -238,7 +238,7 @@ p {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #49b5e7;
+    color: #49e54c;
   }
   
   .navbar .dropdown:hover>ul {
@@ -274,7 +274,7 @@ p {
   * Mobile Navigation 
   */
   .mobile-nav-toggle {
-    color: #0f394c;
+    color: #0f4c1e;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -331,13 +331,13 @@ p {
   .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
-    color: #0f394c;
+    color: #0f4c1e;
   }
   
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover>a {
-    color: #49b5e7;
+    color: #49e54c;
   }
   
   .navbar-mobile .getstarted,
@@ -372,7 +372,7 @@ p {
   .navbar-mobile .dropdown ul a:hover,
   .navbar-mobile .dropdown ul .active:hover,
   .navbar-mobile .dropdown ul li:hover>a {
-    color: #49b5e7;
+    color: #49e54c;
   }
   
   .navbar-mobile .dropdown>.dropdown-active {
@@ -398,12 +398,12 @@ p {
     font-size: 42px;
     font-weight: 700;
     line-height: 56px;
-    color: #0f394c;
+    color: #0f4c1e;
     text-transform: uppercase;
   }
   
   #hero h2 {
-    color: #1c698c;
+    color: #1c8c23;
     margin: 10px 0 0 0;
     font-size: 20px;
   }
@@ -419,13 +419,13 @@ p {
     transition: 0.5s;
     margin-top: 25px;
     color: #fff;
-    background: #49b5e7;
+    background: #49e54c;
     text-transform: uppercase;
     font-weight: bold;
   }
   
   #hero .btn-get-started:hover {
-    background: #76c7ed;
+    background: #78ed76;
   }
   
   @media (max-width: 991px) {
@@ -478,7 +478,7 @@ p {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #0f394c;
+    color: #0f4c1e;
   }
   
   .section-title p {
@@ -509,7 +509,7 @@ p {
     padding: 0;
     line-height: 1;
     font-weight: 600;
-    color: #0f394c;
+    color: #0f4c1e;
   }
   
   #footer .footer-newsletter form {
@@ -537,7 +537,7 @@ p {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #49b5e7;
+    background: #49e54c;
     color: #fff;
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
@@ -545,7 +545,7 @@ p {
   }
   
   #footer .footer-newsletter form input[type=submit]:hover {
-    background: #1da2e0;
+    background: #1de057;
   }
   
   #footer .footer-top {
@@ -576,7 +576,7 @@ p {
   #footer .footer-top h4 {
     font-size: 16px;
     font-weight: bold;
-    color: #0f394c;
+    color: #0f4c1e;
     position: relative;
     padding-bottom: 12px;
   }
@@ -593,7 +593,7 @@ p {
   
   #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #49b5e7;
+    color: #49e54c;
     font-size: 18px;
     line-height: 1;
   }
@@ -617,13 +617,13 @@ p {
   
   #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #49b5e7;
+    color: #49e54c;
   }
   
   #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #49b5e7;
+    background: #49e54c;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -636,20 +636,20 @@ p {
   }
   
   #footer .footer-top .social-links a:hover {
-    background: #1da2e0;
+    background: #1de044;
     color: #fff;
     text-decoration: none;
   }
   
   #footer .copyright {
     float: left;
-    color: #0f394c;
+    color: #0f4c1e;
   }
   
   #footer .credits {
     float: right;
     font-size: 13px;
-    color: #0f394c;
+    color: #0f4c1e;
   }
   
   @media (max-width: 575px) {
@@ -674,7 +674,7 @@ p {
   }
   
   .section-paragraph {
-    color: #007bff; /* Cambia el color del texto a azul */
+    color: #00ff48; /* Cambia el color del texto a azul */
     font-style: italic; /* Aplica estilo cursiva al texto */
   }
 
@@ -691,7 +691,7 @@ p {
 
 /* Estilo para el botón cuando el mouse pasa sobre él */
 .btnSend:hover {
-    background-color: #49b5e7;
+    background-color: #49e54c;
     color: #fff;
 }
 
@@ -705,7 +705,7 @@ p {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-    color: #0f394c;
+    color: #0f4c1e;
     font-size: 38px;
     cursor: pointer;
     display: none;
@@ -779,13 +779,13 @@ p {
   .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
-    color: #0f394c;
+    color: #0f4c1e;
   }
   
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover>a {
-    color: #49b5e7;
+    color: #49e54c;
   }
   
   .navbar-mobile .getstarted,
@@ -820,7 +820,7 @@ p {
   .navbar-mobile .dropdown ul a:hover,
   .navbar-mobile .dropdown ul .active:hover,
   .navbar-mobile .dropdown ul li:hover>a {
-    color: #49b5e7;
+    color: #49e54c;
   }
   
   .navbar-mobile .dropdown>.dropdown-active {
